@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Problems</h1>
+    <div class="main">
+      <label for="hm">Height of <span id="name1">Person1</span></label>
+      <input type="text" id="hm" />
+      <br />
+      <label for="wm">Weight of <span id="name2">Person1</span></label>
+      <input type="text" id="wm" />
+      <br />
+      <label for="hj">Height of <span id="name3">Person2</span></label>
+      <input type="text" id="hj" />
+      <br />
+      <label for="wj">Weight of <span id="name4">Person2</span></label>
+      <input type="text" id="wj" />
+      <br />
+    </div>
+    <div class="btn">
+      <button onclick="calculateBMI()">Calculate BMI</button>
+      <button onclick="resetValues()">Reset</button><br /><br />
+    </div>
+    <div class="result">
+      <label for="BMIMARK">BMI <span id="name5">Person1</span></label>
+      <input type="text" id="BMIm" />
+      <br />
+      <label for="BMIJOHN">BMI <span id="name6">Person2</span></label>
+      <input type="text" id="BMIj" />
+      <br />
+    </div>
+
+    <div id="statement"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
